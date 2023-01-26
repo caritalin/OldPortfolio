@@ -9,16 +9,17 @@ body {
     font-family: 'Unbounded', cursive;
     margin: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     color: white;
     background-color: #131516;
 }
 
 header {
+    width: 100%;
     background-color: black;
     padding-top: 40px;
-    width: 100%;
     left: 0;
+    z-index: 100;
     position: fixed;
     color: white;
     display: block;
@@ -41,7 +42,7 @@ header {
 
 #flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -51,22 +52,21 @@ header {
 }
 
 #headerPara {
-    padding-left: 5px;
     margin-top: 0;
-    color: #ccc
+    color: #ccc;
 }
 
 ul#navMain li {
     display: inline;
-    margin: 2em;
+    margin: 0.5em;
 }
 
 .navP {
     text-decoration: none;
     color: #ccc;
     padding: 0.5em;
-    transition: 300ms;
-    border-radius: 20px;
+    transition: 1000ms;
+    border-radius: 30px;
 }
 
 .navP:hover {
@@ -75,7 +75,7 @@ ul#navMain li {
 }
 
 #hero {
-    height: 100vh; /*change 100*/
+    height: 100vh;
     width: 100%;
     text-align: center;
     background-image: url("background.jpg");
@@ -96,7 +96,7 @@ ul#navMain li {
 }
 
 #heroP {
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -108,14 +108,13 @@ main {
 }
 
 article {
-    width: ;
     margin: 10%;
     text-align: center;
 }
 
 #about {
     display: flex;
-    color: #bbb
+    color: #bbb;
 }
 
 .section {
@@ -134,30 +133,29 @@ ul {
 .code {
     border-left: 4px solid white;
     background-color: #222;
-    padding-left: 0px;
+    padding-left: 10px;
     margin-top: 4px;
 }
 
-#contact {
+#info {
     margin: 0;
     width: 100%;
-    height: 50vh;
-    padding-top: 10%;
-    padding-left: 20%;
+    height: 22vh;
+    padding-top: 2%;
     background-color: #bbb;
     font-size: large;
     color: black;
-    text-align: left;
+    text-align: center;
 }
 
-#contact ul {
-    text-align: left;
+#info ul {
+    text-align: center;
 }
 
 .contactLink {
     padding-left: 0%;
     color: black;
-    transition: 0ms;
+    transition: 100ms;
 }
 
 .contactLink:hover {
@@ -166,5 +164,5 @@ ul {
 
 footer {
     width: 100%;
-
+    text-align: center;
 }
