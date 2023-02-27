@@ -147,6 +147,9 @@ article {
 
 .section {
     width: 50%;
+    line-height: 32px;
+    margin-bottom: 30px;
+
 }
 
 #hey {
