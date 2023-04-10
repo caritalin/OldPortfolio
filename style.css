@@ -6,7 +6,6 @@ html {
     width: 100%;
     height: 100%;
 }
-
 body {
     display: block;
     font-family: 'Gruppo', cursive;
@@ -17,7 +16,6 @@ body {
     color: white;
     background-color: #131516;
 }
-
 header {
     width: 100%;
     background-color: black;
@@ -27,7 +25,6 @@ header {
     color: white;
     display: block;
 }
-
 .gutter {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
@@ -36,40 +33,32 @@ header {
     padding-top: 10%;
     text-align: center;
 }
-
-
 #full {
     width: 100%;
 }
-
 #outer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
-
 #flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 #headerTitle {
     font-size: 48px;
     margin: 0;
 }
-
 #headerPara {
     font-size: 30px;
     margin-top: 0;
     color: #ccc;
 }
-
 ul#navMain li {
     display: inline;
     margin: 0.5em;
 }
-
 .navP {
     text-decoration: none;
     color: #ccc;
@@ -77,12 +66,10 @@ ul#navMain li {
     transition: 1000ms;
     border-radius: 30px;
 }
-
 .navP:hover {
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
 }
-
 #hero {
     height: 100vh;
     width: 100%;
@@ -93,7 +80,6 @@ ul#navMain li {
     background-size: cover;
     animation: background 2s ease-in-out 1s forwards;
 }
-
 @keyframes background {
     from {
         background-position: fixed;
@@ -103,7 +89,6 @@ ul#navMain li {
         background-position: center;
     }
 }
-
 #heroP {
     top: 50%;
     left: 50%;
@@ -111,16 +96,13 @@ ul#navMain li {
     position: absolute;
     font-size: 70px;
 }
-
 main {
     clear: both;
 }
-
 article {
     margin: 10%;
     text-align: center;
 }
-
 #about {
     display: flex;
     color: #bbb;
@@ -128,45 +110,31 @@ article {
 #resume, #status {
     text-align: center;
     padding-bottom: 10%;
-
 }
 .resume, .status {
     color: rgb(185, 185, 185);
     text-decoration: none;
-    
-
 }
 .resume:hover, .status:hover {
     color: lightskyblue;
-    
-
 }
 #resume li, #status li {
     list-style: none;
     padding-top: 20px;
     padding-left: 60px;
-
 }
-
-
 .section {
     width: 50%;
     line-height: 32px;
     margin-bottom: 30px;
-
 }
-
 #hey {
     text-align: initial;
 }
-
 ul {
     text-align: initial;
     list-style: none;
-
-
 }
-
 .code {
     background-color: #222;
     padding-left: 10px;
@@ -176,7 +144,6 @@ ul {
     padding: 0.5em;
     transition: 1000ms;
 }
-
 #info {
     margin: 0;
     width: 100%;
@@ -190,25 +157,20 @@ ul {
 #info h2{
     padding-left: 200px;
 }
-
 #info ul {
     text-align: left;
     padding-left: 200px;
     padding-bottom: 50px ;
 }
-
-
 .contactLink {
     padding-left: 0%;
     color: black;
     transition: 100ms;
     text-decoration: none;
 }
-
 .contactLink:hover {
     color: lightskyblue;
 }
-
 footer {
     width: 100%;
     text-align: center;
